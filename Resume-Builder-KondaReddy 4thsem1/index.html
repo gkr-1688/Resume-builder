@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+
+        <!-- OPL Demos Google Analytics -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-3920997-4', 'auto');
+            ga('send', 'pageview');
+        </script>
+
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <title>Resume Builder Konda reddy</title>
+        <meta name="description" content="">
+        <meta name="robots" content="noindex, nofollow" />
+
+        <!-- The compiled CSS file -->
+        <link rel="stylesheet" href="css/production.css">
+
+        <!-- Web fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <!-- favicon.ico. Place these in the root directory. -->
+        <link rel="shortcut icon" href="favicon.ico">
+                <link rel="icon" href="logo.png" type="image/x-icon" />
+        <style >
+            footer {
+                text-align: center;
+                padding: 3px;
+                background-color: black;
+                 color: black;
+                }
+                h1,h2{
+                    background-color: blue;
+                    background-size: 300px 100px;
+                    color: white;
+                }
+                * {
+  margin:0;
+  padding:0;
+}
+body {
+  background-color:#0088ff;
+  font-family: 'Raleway', sans-serif;
+}
+#ribbon {
+  position:absolute;
+  background-color:red;
+  color:white;
+  top:60px;
+  left:-40px;
+  width:250px;
+  transform:rotate(-45deg);
+  text-align:center;
+}
+#container {
+  position:relative;
+  width:80%;
+  margin:5% auto;
+  background-color:black;
+  box-shadow: -2px -2px 5px white,2px -2px 5px white;
+}
+#container > nav {
+  width:100%;
+  display:flex;
+  max-height:60px;
+}
+#logo {
+  line-height:60px;
+  font-size:30px;
+  padding: 0 50px;
+  color: white;
+  width:40%;
+  letter-spacing:2px;
+  text-shadow:2px 2px 5px;
+}
+#container > nav > ul {
+  margin:0;
+  paddding:0;
+  list-style-type:none;
+  display:flex;
+  position:absolute;
+    right:50px;
+/*   min-width:60%; */
+}
+#container > nav > ul > li {
+  line-height:60px;
+  margin: 0 0px;
+  padding:0;
+  text-align:center;
+  display:inline-block;
+  
+/*   background-color:green; */
+  min-width:120px;
+
+} 
+#container > nav > ul > li > a {
+  position:relative;
+/*   background-color:red; */
+  margin: 0 20px;
+    color:white;
+}
+#container > nav > ul > li:hover {
+  border-bottom: 2px solid white;
+  background-color: #0088ff;
+}
+#container > nav > ul > .dropdown:hover {
+  border-bottom:none;
+}
+#container > nav > ul > .dropdown:hover >  .dd
+{
+  display:block;
+}
+.dropdown:hover > a .fa-caret-down {
+  display:none;
+}
+a {
+  text-decoration:none;
+
+}
+
+#container > nav > ul > li > div {
+  position:absolute;
+  padding: 0 10px;
+  
+  background-color:black;
+  display:none;
+  background-color:aliceblue;
+  min-width:100px;
+}
+
+#container > nav > ul > li > div > ul {
+  margin:0px 0 10px 0;
+  padding:0;
+  list-style:none;
+}
+#u_a_c {
+  position:relative;
+  width:100%;
+/*   background-color:red; */
+}
+#up_arrow {
+  position:relative;
+  width:20px;
+  height:20px;
+  left:42%;
+  top:-10px;
+  background-color:aliceblue;
+  transform:rotate(45deg);
+}
+#container > nav > ul > li> div > ul > li:hover {
+  background-color:rgba(0,0,0,0.2);
+}
+#container > nav > ul > li > div > ul > li > a {
+  padding : 5px;
+    color:black;
+}
+        </style>
+
+    </head>
+
+    <body>
+        <div id="ribbon">Resume Builder</div>  
+    
+    <div id="container">
+
+      <nav>
+        <div id="logo">
+          Konda Reddy
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Our team.html">About</a></li>
+          <li><a href="explian.html">Guidence</a></li>
+          <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="#">Resumes &nbsp;<i class="fa fa-caret-down"></i></a>
+            <div class="dd">
+              <div id="up_arrow"></div>
+            <ul>
+              
+              <li><a href="1/index.html"><h3>Standard Resume</h3></a></li>
+              <li><a href="2/index.html"><h3>Modern Resume</h3></a></li>
+            </ul>
+            </div>
+          </li>
+          <li class="dropdown"><a href="#">Others &nbsp;<i class="fa fa-caret-down"></i> </a>
+           <div class="dd">
+             <div id="u_a_c"><div id="up_arrow"></div></div>
+            <ul>
+              
+              <li><a href="indexr.html"><h3>Normal Manual Resume</h3></a></li>
+              <li><a href="indexcode.html"><h3>Coded Resume</h3></a></li>
+            </ul>
+            </div>
+        </ul>
+      </nav>
+    </div>
+
+
+    <!-- Header -->
+    <header class="pt2 pb1 align--center">
+        <div class="container">
+            <p style="background-color: blue" style="width: 200px">Welcome to</p>
+            <h1 title="Camp Chippewa">Resume Builder Konda reddy</h1>
+            <h2>Website</h2>
+        </div>
+                            <img src="logo.png">
+    </header>
+
+    <!-- Body -->
+    <main>
+        
+        <div class="container">
+
+            <!-- Info -->
+            <section class="grid-row grid-row--center">
+                <!-- Cabin -->
+                <div class="grid-column span-half pt3 pb3 mobile-m order-1">
+                    <div class="relative">
+                        <a href="1/index.html"><img class="info-image relative z2" src="./img/resume-1.jpeg" alt="Cabin"></a>
+                        <div class="pattern pattern--left-down absolute z1"></div>
+                    </div>
+                </div>
+                <div class="grid-column span-half pt3 pb3 mobile-m order-2">
+                    <a href="1/index.html"><h3>Standard Resume</h3></a>
+                    <p>Standard Resume gives you a free, modern, professional resume.</p>
+                </div>
+                <!-- Teepees -->
+                <div class="grid-column span-half pt3 pb3 mobile-m order-4">
+                    <a href="2/index.html"><h3>Modern Resume</h3></a>
+                    <p>Modern Resume give you a free, modern, professtional resume.</p>
+                </div>
+                <div class="grid-column span-half pt3 pb3 mobile-m order-3">
+                    <div class="relative">
+                        <a href="2/index.html"><img class="info-image relative z2" src="./img/resume-2.jpeg" alt="Teepee"></a>
+                        <div class="pattern pattern--right-middle absolute z1"></div>
+                    </div>
+                </div>
+                <div class="grid-column span-half pt3 pb3 mobile-m order-1">
+                    <div class="relative">
+                        <a href="indexr.html"><img class="info-image relative z2" src="Normal.png" alt="Cabin"></a>
+                        <div class="pattern pattern--left-down absolute z1"></div>
+                    </div>
+                </div>
+                <div class="grid-column span-half pt3 pb3 mobile-m order-2">
+                    <a href="indexr.html"><h3>Normal Manual Resume</h3></a>
+                    <p>Normal manual Resume gives you a free,  professional resume.</p>
+                </div>
+                <div class="grid-column span-half pt3 pb3 mobile-m order-4">
+                    <a href="indexcode.html"><h3>Coded Resume</h3></a>
+                    <p>Coded Resume give you a free, professtional resume.</p>
+                    <a href="code cv.txt">Code reference</a>
+                </div>
+                <div class="grid-column span-half pt3 pb3 mobile-m order-3">
+                    <div class="relative">
+                        <a href="indexcode.html"><img class="info-image relative z2" src="code pic.png" alt="Teepee"></a>
+                        <div class="pattern pattern--right-middle absolute z1"></div>
+                    </div>
+                </div>
+            </section>
+                
+        
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="pt2 pb2">
+        <div>
+            <i class="fa fa-phone" style="font-size:24px; color: red"></i>
+            <p style="color: white">Phone No.</p>
+            <p style="color: white">6303203507</p>
+        </div>
+        <div class="container align--center">
+            <p style="background-color: white">Developed & Design by Gurakonda Konda Reddy.</p>
+            <p style="background-color: white">&copy; || Resume Builder</p>
+        </div>
+    </footer>
+
+    </body>
+</html>
+
